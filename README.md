@@ -12,7 +12,7 @@ Playwright-based API integration tests targeting the [Petstore v2](https://petst
 ### Step 1 — Navigate to the project folder
 
 ```bash
-cd portal-e2e-playwright-api-tests
+cd playwright-api-testing-framework
 ```
 
 ### Step 2 — Install dependencies
@@ -72,7 +72,7 @@ PETSTORE_USERNAME=myuser PETSTORE_PASSWORD=mypass npm test
 ## Project structure
 
 ```
-portal-e2e-playwright-api-tests/
+playwright-api-testing-framework/
 │
 ├── tests/
 │   └── petstore/                  # One spec file per resource group
