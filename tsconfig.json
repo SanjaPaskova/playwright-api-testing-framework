@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "strict": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "types": [
+      "node"
+    ],
+    "ignoreDeprecations": "6.0"
+  },
+  "include": [
+    "tests/**/*.ts",
+    "helpers/**/*.ts",
+    "petstore/**/*.ts",
+    "playwright.config.ts",
+    "error-response.ts",
+    "errorcodes.ts",
+    "globalconstants.ts",
+    "http-validations.ts"
+  ]
+}
